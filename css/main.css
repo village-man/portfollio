@@ -1,0 +1,14 @@
+body {
+  font-family: Ricty Diminished;
+  width: auto; }
+
+.eye-catch {
+  height: 1295px;
+  background-image: url(../img/eyecatch.jpg);
+  background-size: cover;
+  color: #FFFCF2;
+  text-align: center; }
+  .eye-catch h1 {
+    margin-top: 200px; }
+
+/*# sourceMappingURL=main.css.map */
