@@ -1,11 +1,19 @@
 body {
-  font-family: Ricty Diminished;
+  font-family: Times Sans Serif;
   width: auto; }
 
 .colum {
   font-size: 160px;
+  letter-spacing: 5px;
   color: #121212;
   opacity: 0.2;
+  writing-mode: vertical-rl; }
+
+.colum-white {
+  font-size: 160px;
+  letter-spacing: 5px;
+  color: #FFFCF2;
+  opacity: 0.4;
   writing-mode: vertical-rl; }
 
 .eye-catch {
@@ -16,12 +24,14 @@ body {
   color: #FFFCF2;
   text-align: center; }
   .eye-catch h1 {
-    font-size: 150px; }
+    font-size: 150px;
+    letter-spacing: 3px; }
   .eye-catch p {
     font-size: 70px;
     margin-bottom: 144px; }
   .eye-catch span {
-    font-size: 47px; }
+    font-size: 47px;
+    letter-spacing: 2px; }
   .eye-catch a {
     color: #FFFCF2;
     text-decoration: none;
@@ -38,7 +48,7 @@ body {
     opacity: 0.5; }
 
 .profile {
-  height: 800px;
+  height: 700px;
   padding-top: 150px;
   padding-left: 260px;
   color: 121212;
@@ -47,8 +57,32 @@ body {
     align-items: flex-end;
     width: 900px;
     height: 350px;
-    margin-top: 200px;
+    margin-top: 105px;
     font-size: 24px;
     line-height: 60px; }
+
+.skills {
+  background-image: url(../img/code.jpg);
+  height: 800px;
+  background-size: cover; }
+  .skills .black-layer {
+    padding-top: 150px;
+    padding-left: 260px;
+    height: 650px;
+    width: auto;
+    background-color: black;
+    opacity: 0.8; }
+    .skills .black-layer .over-layer {
+      z-index: 10;
+      width: auto;
+      display: flex; }
+      .skills .black-layer .over-layer .skills-content {
+        color: #FFFCF2;
+        font-size: 24px; }
+        .skills .black-layer .over-layer .skills-content img {
+          width: 100px;
+          height: 100px; }
+        .skills .black-layer .over-layer .skills-content .content {
+          display: flex; }
 
 /*# sourceMappingURL=main.css.map */
