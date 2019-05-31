@@ -1,6 +1,7 @@
 body {
   font-family: Times Sans Serif;
   width: auto;
+  color: #121212;
 }
 
 .colum {
@@ -86,6 +87,7 @@ body {
     width: 900px;
     height: 350px;
     margin-top: 105px;
+    margin-left: 50px;
     font-size: 24px;
     line-height: 60px;
 
@@ -117,32 +119,103 @@ body {
       .skills-content {
         color: #FFFCF2;
         font-size: 24px;
-        // display: flex;
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 50px;
 
         img {
           width: 100px;
           height: 100px;
-          // opacity: 1.0;
+          margin-left: 70px;
         }
 
         .content {
           display: flex;
+          margin-bottom: 70px;
 
-          .language {
-
-          }
-
-          .framework {
+          .language-imgs {
+            margin-left: 21%;
 
           }
 
-          .tool {
+          .framework-imgs {
+            margin-left: 40%;
+
+          }
+
+          .tool-imgs {
+            margin-left: 19%;
 
           }
         }
 
 
       }
+    }
+  }
+}
+
+.works {
+  height: 1000px;
+  padding-top: 150px;
+  padding-left: 260px;
+  padding-right: 150px;
+  // display: flex;
+
+  .flex {
+    display: flex;
+  }
+
+  .works-contents-wrapper {
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .works-content {
+      width: 300px;
+      margin-bottom: 50px;
+      margin-right: 20px;
+      // height: a;
+
+      .works-content-img {
+        width: 100%;
+        height: 200px;
+        background-color: #CDD6DD;
+      }
+
+      .works-content-detail {
+        h3 {
+          font-size: 24px;
+          margin-top: 40px;
+        }
+
+        p {
+          margin-top: 13px;
+
+        }
+      }
+    }
+  }
+
+  .more-button-link:hover {
+    opacity: 0.7;
+  }
+
+  .more-button {
+    margin: 0 auto;
+    width: 250px;
+    height: 50px;
+    background-color: #121212;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      color: #FFFCF2;
+      font-size: 24px;
+
     }
   }
 }
