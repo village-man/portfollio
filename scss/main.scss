@@ -156,7 +156,7 @@ body {
 }
 
 .works {
-  height: 1000px;
+  height: auto;
   padding-top: 150px;
   padding-left: 260px;
   padding-right: 150px;
@@ -174,7 +174,7 @@ body {
     .works-content {
       width: 300px;
       margin-bottom: 50px;
-      margin-right: 20px;
+      margin-right: 30px;
       // height: a;
 
       .works-content-img {
@@ -197,12 +197,13 @@ body {
     }
   }
 
-  .more-button-link:hover {
-    opacity: 0.7;
+  .more-button-link {
+    text-decoration: none;
   }
 
   .more-button {
-    margin: 0 auto;
+    margin: 30px auto 100px;
+    margin-left: 44%;
     width: 250px;
     height: 50px;
     background-color: #121212;
@@ -216,6 +217,136 @@ body {
       color: #FFFCF2;
       font-size: 24px;
 
+    }
+  }
+}
+
+.more {
+  padding-left: 200px;
+
+  .favicon-wrapper {
+    width: 50px;
+    height: 50px;
+    margin-left: 88%;
+    margin-bottom: 100px;
+    transition: all 2000ms 0s ease;
+
+    :hover {
+      opacity: 0.5;
+    }
+  }
+
+  a {
+    color :#121212;
+    // display: inline-block;
+  }
+
+  i {
+    font-size: 30px;
+  }
+}
+
+.qanda {
+  height: 950px;
+  background-image: url(../img/qa.jpg);
+
+  .qanda-black-layer {
+    height: 800px;
+    padding-top: 150px;
+    padding-left: 260px;
+    padding-right: 150px;
+    background-color: black;
+    opacity: 0.6;
+
+    .qanda-over-layer {
+      z-index: 10;
+      width: auto;
+      display: flex;
+
+      .qanda-content {
+        width: 80%;
+      }
+    }
+  }
+}
+
+.accordion {
+  padding-left: 50px;
+  z-index: 50;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 1px;
+
+  .ac-wrapper {
+    width: 100%;
+  }
+  .ac-title-wrapper {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    .ac-title {
+      padding-left: 10px;
+      width: 100%;
+    }
+  }
+
+  .ac-content {
+    padding-left: 10px;
+    margin-bottom: 15px;
+    color: white;
+    display: none;
+    line-height: 32px;
+  }
+}
+
+.footer {
+  height: 70px;
+  display: flex;
+  align-items: center;
+
+  span {
+    padding-left: 10%;
+    a {
+      text-decoration: none;
+      color: #121212;
+      }
+    }
+
+  #link-profile:hover {
+    opacity: 0.5;
+  }
+  #link-skills:hover {
+    opacity: 0.5;
+  }
+  #link-works:hover {
+    opacity: 0.5;
+  }
+  #link-qa:hover {
+    opacity: 0.5;
+  }
+  #link-contact:hover {
+    opacity: 0.5;
+  }
+
+  .fa-arrow-up-wrapper {
+    margin-left: 65%;
+
+    :hover {
+      opacity: 0.7;
+    }
+
+    a {
+      color: black;
+
+      i {
+        font-size: 20px;
+      }
     }
   }
 }

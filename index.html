@@ -5,20 +5,22 @@
     <title>Hello my World</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/b4c6868896.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
     <section class="eye-catch">
       <h1>Hello my World</h1>
       <p>Back-end Engineer</p>
-      <span><a href="" id="link-profile">Profile</a>  |  <a href="" id="link-skills">Skills</a>  |  <a href="" id="link-works">Works</a>  |  <a href="" id="link-qa">Q&A</a>  |  <a href="" id="link-contact">Contact</a></span>
+      <span><a href="#link-to-profile" id="link-profile">Profile</a>  |  <a href="#link-to-skills" id="link-skills">Skills</a>  |  <a href="#link-to-works" id="link-works">Works</a>  |  <a href="#link-to-qa" id="link-qa">Q&A</a>  |  <a href="mailto:reiwa.co.com+se@gmail.com" id="link-contact">Contact</a></span>
     </section>
-    <section class="profile">
+    <section class="profile" id="link-to-profile">
       <h2 class="colum">Profile</h2>
       <div class="profile-content">
       名前：沼田雅人<br> 学歴：学習院大学 理学部物理学科<br> 志望するポジション：バックエンドエンジニア<br> 大学2年生の冬。僕は運命的な出会いをした。<br> “Ruby” これが案外楽しくて、遊び感覚で色々作り始めた。<br> print ’まさかエンジニアを目指すなんて、そのときはまだ、知る由もない。。。’
       </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="link-to-skills">
       <div class="black-layer">
         <div class="over-layer">
           <h2 class="colum-white">Skills</h2>
@@ -52,7 +54,7 @@
         </div>
       </div>
     </section>
-    <section class="works">
+    <section class="works" id="link-to-works">
       <div class="flex">
         <h2 class="colum">Works</h2>
         <div class="works-contents-wrapper">
@@ -130,15 +132,73 @@
           </div>
         </div>
       </div>
-      <a href="" class="more-button-link">
+      <a href="more.html" class="more-button-link">
         <div class="more-button">
           <span>more...</span>
         </div>
       </a>
     </section>
 
-    <section class="q&a">
+    <section class="qanda" id="link-to-qa">
+      <div class="qanda-black-layer">
+        <div class="qanda-over-layer">
+          <h2 class="colum-white">Q&A</h2>
+          <div class="qanda-content">
+            <ul class="accordion">
+              <li>
+                <div class="ac-wrapper">
+                  <div class="ac-title-wrapper">
+                    <p class="ac-title">Q.学生時代一番頑張ったことは何ですか。</p>
+                  </div>
+                  <p class="ac-content">A.プログラミングです。 本格的にプログラミング学習を開始したのが、2019年2月です。1年足らずで、webサービスをGitを用いて共同開発しリリースすることができました。プログラミング技術のみならず、自走能力、論理的な問題解決能力、チームでのコミュニケーション能力などを短期間で身につけたことです。</p>
+                </div>
+              </li>
+              <li>
+                <div class="ac-wrapper">
+                  <div class="ac-title-wrapper">
+                    <p class="ac-title">Q.将来どんなエンジニアになりたいですか。</p>
+                  </div>
+                  <p class="ac-content">A.プログラミング技術、語学力、双方に長けたエンジニアです。 私は将来的には海外で働きたいと考えています。そのために、普遍的な能力が必要になると考えるので、技術、語学力共に十分なエンジニアになります。</p>
+                </div>
+              </li>
+              <li>
+                <div class="ac-wrapper">
+                  <div class="ac-title-wrapper">
+                    <p class="ac-title">Q.プログラミングを始めたきっかけはなんですか。</p>
+                  </div>
+                  <p class="ac-content">A.やりたいことがわからなくなって、やりたいことを模索していたときに出会ったのがプログラミングでした。厳密に言えばやりたいことなんて何も分からかなかったので、「やりたくないこと」を軸に何をすべきを考えました。逆説的ですが「やりたくないこと」とは労働のことです。起業してサービスを1発当てる。市場価値を最大化して働かなくていいくらいの資産を稼ぐ。単純作業を自動化させる。etc…どれも労働から逃れるための手段ですが、そのどれも実現可能なのが「プログラミング」だと気づいたのです。私は「働かない」という目的のため、「全力で働く＝プログラミングにフルコミットする」のです。「働きたくない」を実現するために試行錯誤したところ結局「市場価値が高いスキルを市場に投資する」という正反対の行動を取ることになりました。</p>
+                </div>
+              </li>
+              <li>
+                <div class="ac-wrapper">
+                  <div class="ac-title-wrapper">
+                    <p class="ac-title">Q.貴方の強み、弱みはなんですか。</p>
+                  </div>
+                  <p class="ac-content">A.強みは、真実を探求する好奇心と情熱があることです。 私は「よく考える」癖があり、物事の本質や全貌を明らかにすることや、常識に囚われずにものを考えることができます。というのも、哲学書や心理学書を読むことが好きです。物事を批判的かつ客観的に見つめ、その本質を捉えるトレーニングを自然と行っていたのです。したがって、合理的な解決策を提示し、ときにイノベーションをもたらす能力があると考えています。 弱みは、身体が弱いことです。 中学生のときに胃腸の病気を患い、今もその病気を持っています。精神的ストレスや疲れから胃腸の機能が低下し、作業のパフォーマンスが低下することがあります。</p>
+                </div>
+              </li>
+              <li>
+                <div class="ac-wrapper">
+                  <div class="ac-title-wrapper">
+                    <p class="ac-title">Q.これだけは譲れないという貴方の「こだわり」を教えてください。</p>
+                  </div>
+                  <p class="ac-content">A.モダンな技術の習得です。 結局、最後にものをいうのは技術だと考えいて、ここだけは譲れません。語学能力が高くても、コミュニケーション能力が高くても、良いコードを書けなきゃエンジニアとして価値がないと思うので、そこは抜かりなく取り組みます。 </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <span><a href="#link-to-profile" id="link-profile">Profile</a>  |  <a href="#link-to-skills" id="link-skills">Skills</a>  |  <a href="#link-to-works" id="link-works">Works</a>  |  <a href="#link-to-qa" id="link-qa">Q&A</a>  |  <a href="mailto:reiwa.co.com+se@gmail.com" id="link-contact">Contact</a></span>
+      <div class="fa-arrow-up-wrapper">
+        <a href="#">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+      </div>
 
     </section>
+    <script src="js/main.js"></script>
   </body>
 </html>
